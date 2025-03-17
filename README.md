@@ -4,7 +4,7 @@ A project from the **AI-Sabotage Lab 2025** at *La Salle – Master of Digital A
 
 ## 📌 Overview  
 This project allows you to transform a **story** into a **MIDI composition**, where each word is mapped to a musical note with **velocity and duration**.  
-Using **LLMs** for interpretation and **Python** for conversion, you can generate **expressive music** from text.  
+Using **LLMs** for interpretation and **Python** for conversion. 
 
 ---
 
@@ -76,8 +76,7 @@ Run the `midiConvert.py` script to convert your CSV into a MIDI file.
    pip install mido
    ```
 3. Run the script, linking to your **generated `.csv` file**:  
-   ```bash
-   python midiConvert.py my_story.csv
+   ```INPUT_TABLE = "yourGeneratedCsv-File.csv"
    ```
 4. The **MIDI file** will be created in your directory.  
 
@@ -87,21 +86,12 @@ Run the `midiConvert.py` script to convert your CSV into a MIDI file.
 Now that you have a **MIDI file**, you can:  
 🎵 **Play it in a DAW** like Ableton Live or FL Studio.  
 🎨 **Generate visuals** using Processing or TouchDesigner.  
-🎭 **Create an interactive experience** in a game or performance.  
 
-**It’s up to you!** 😃  
-
----
-
-## 📜 License  
-This project is part of the **AI-Sabotage Lab 2025** at *La Salle – Master of Digital Arts & Creative Tech*.  
-Feel free to use, modify, and experiment with it! 🚀  
+**Have FUN!** 😃  
 
 ---
 
 ## ✉️ Contact  
-For questions, reach out to **Tim** or the **AI-Sabotage Lab** team.  
+For questions, reach out to **Tim** from class - if you know you know :D.  
 
 ---
-
-🎶 Have fun converting stories into music! 🎼✨  
