@@ -76,7 +76,8 @@ Run the `midiConvert.py` script to convert your CSV into a MIDI file.
    pip install mido
    ```
 3. Run the script, linking to your **generated `.csv` file**:  
-   ```INPUT_TABLE = "yourGeneratedCsv-File.csv"
+   ```
+   INPUT_TABLE = "yourGeneratedCsv-File.csv" #full path to file
    ```
 4. The **MIDI file** will be created in your directory.  
 
